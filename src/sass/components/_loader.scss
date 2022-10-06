@@ -1,0 +1,19 @@
+.loader {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+
+   &__icon {
+      border: 16px solid $color-white;
+      border-radius: 50%;
+      border-top: 16px solid $color-primary-dark;
+      width: 10.2rem;
+      height: 10.2rem;
+      animation: spin 2s linear infinite;
+   }
+}

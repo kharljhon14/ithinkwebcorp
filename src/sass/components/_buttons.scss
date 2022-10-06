@@ -1,0 +1,15 @@
+.btn {
+   background-color: $color-primary-light;
+   box-shadow: 0 0 2rem rgba($color-primary-dark, $alpha: 0.2);
+
+   color: $color-white;
+   border: none;
+   border-radius: 0.6rem;
+   padding: 1.2rem 1.5rem;
+   font-size: 1.6rem;
+   cursor: pointer;
+
+   &-dark {
+      background-color: $color-secondary-dark;
+   }
+}

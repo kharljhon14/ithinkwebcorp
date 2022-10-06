@@ -1,12 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import Home from "../pages/Home";
-import Users from "../pages/Users";
+import UsersComponent from "../pages/Users";
 
 const Main = () => {
+   const [users, setUsers] = useState([]);
+
    return (
       <div className="main">
-         <Home />
-         <Users />
+         {/* <Home /> */}
+         <UsersComponent />
       </div>
    );
 };
