@@ -10,7 +10,7 @@ const Header = () => {
             <ul className="nav__list">
                <li className="nav__list-item">
                   <a href="/">Home</a>
-                  <a href="/">Users </a>
+                  <a href="/users">Users </a>
                </li>
             </ul>
          </div>

@@ -1,8 +1,10 @@
-.users{
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    margin-bottom: 5rem;
-    min-height: 90vh;
-    position: relative;
+.users {
+   &__container {
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      margin-bottom: 5rem;
+      min-height: 90vh;
+      position: relative;
+   }
 }

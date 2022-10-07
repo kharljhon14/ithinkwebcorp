@@ -1,0 +1,17 @@
+.toast {
+   position: fixed;
+   bottom: 1rem;
+   right: 1rem;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-end;
+
+   &-notification {
+      background-color: $color-primary-light;
+      color: $color-white;
+      border-radius: 0.6rem;
+      padding: 1rem 2rem;
+      margin: .5rem;
+      font-size: 2rem;
+   }
+}
